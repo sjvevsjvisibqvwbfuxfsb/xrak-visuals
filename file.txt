@@ -1,0 +1,11 @@
+accessWidener v2 named
+
+accessible method net/minecraft/client/render/entity/LivingEntityRenderer <init> (Lnet/minecraft/client/render/EntityRendererFactory$Context;Lnet/minecraft/client/model/EntityModel;F)V
+accessible method net/minecraft/client/render/entity/LivingEntityRenderer updateRotation (Lnet/minecraft/entity/LivingEntity;F)V
+accessible method net/minecraft/client/render/item/HeldItemRenderer renderItem (Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/render/model/json/ModelTransformationMode;ZLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V
+accessible method net/minecraft/client/render/GameRenderer render (FJZ)V
+accessible field net/minecraft/client/render/WorldRenderer entityOutlinesFramebuffer Lnet/minecraft/client/gl/Framebuffer;
+accessible field net/minecraft/entity/LivingEntity hurtTime I
+accessible field net/minecraft/entity/LivingEntity lastHurtTime I
+accessible field net/minecraft/client/network/ClientPlayerEntity lastRenderedPitch F
+accessible method net/minecraft/client/render/item/HeldItemRenderer getHandSwingProgress (F)F

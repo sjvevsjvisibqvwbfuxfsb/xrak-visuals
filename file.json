@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "xrakvisuals",
+  "version": "${version}",
+  "name": "Xrak Visuals",
+  "description": "Premium 1:1 Pulse Visuals replica with advanced visual enhancements for Minecraft 1.21.4",
+  "authors": ["XrakNet"],
+  "contact": {
+    "homepage": "https://xrak.com",
+    "sources": "https://github.com/xraknet/xrakvisuals"
+  },
+  "license": "Proprietary",
+  "icon": "assets/xrakvisuals/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.xrak.visuals.XrakVisualsMod"
+    ]
+  },
+  "mixins": [
+    "xrakvisuals.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}

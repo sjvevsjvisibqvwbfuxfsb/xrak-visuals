@@ -1,0 +1,9 @@
+rootProject.name = 'xrakvisuals'
+
+pluginManagement {
+    repositories {
+        maven { url = 'https://maven.fabricmc.net/' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
